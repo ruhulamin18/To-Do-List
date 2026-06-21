@@ -52,7 +52,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/ruhulamin18/To-Do-List
+git clone https://github.com/ruhulamin18/To-Do-List.git
 ```
 
 Navigate to project folder:
