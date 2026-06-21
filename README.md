@@ -1,16 +1,111 @@
-# React + Vite
+# DayList - Smart To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DayList is a modern and responsive **To-Do Application** built with **React.js** to help users organize daily tasks efficiently.
+It provides a clean interface for managing tasks with features like categories, priority levels, task filtering, search, dark mode, and progress tracking.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A productivity-focused task manager designed for calmer and clearer days.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add new tasks with title, category, priority, and due date
+* Edit existing tasks
+* Delete tasks
+* Mark tasks as completed
+* Clear completed tasks
+* Filter tasks by:
 
-## Expanding the ESLint configuration
+  * All
+  * Active
+  * Completed
+* Category-based task management:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Work
+  * Personal
+  * Health
+* Search tasks instantly
+* Progress tracking with completion percentage
+* Dark / Light mode toggle
+* Data persistence using Local Storage
+* Responsive modern UI
+
+## Technologies Used
+
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
+* Local Storage API
+
+## Project Structure
+
+```bash
+src/
+│── App.jsx
+│── App.css
+│── main.jsx
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ruhulamin18/To-Do-List
+```
+
+Navigate to project folder:
+
+```bash
+cd To-Do-List
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm run dev
+```
+
+## How It Works
+
+1. Add a task using the input field
+2. Select category, priority, and due date
+3. Save the task
+4. Track completion progress
+5. Search or filter tasks anytime
+6. All tasks are automatically saved in browser storage
+
+## Key Learning Outcomes
+
+This project helped practice:
+
+* React Hooks (`useState`, `useEffect`, `useMemo`)
+* State Management
+* Dynamic Rendering
+* Event Handling
+* Conditional Rendering
+* Local Storage Integration
+* UI/UX Design Principles
+
+## Future Improvements
+
+* Drag and drop tasks
+* Task deadlines with calendar picker
+* Notifications / reminders
+* Backend integration
+* User authentication
+* Cloud sync
+
+## Author
+
+**Md. Ruhul Amin**
+CSE Student | Frontend Developer | Aspiring Software Engineer
+
+GitHub: https://github.com/ruhulamin18
